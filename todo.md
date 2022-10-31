@@ -6,13 +6,13 @@ In order to complete this task, you will need to select an existing JavaScript p
     API call to authenticate a user {cm:2022-10-31}
     Does not belong to you {cm:2022-10-31}
 
-You may use another student’s project or a project provided by your teacher.
+ # You may use another student’s project or a project provided by your teacher.
 
 The following workflows/hooks are required:
 
     Project is configured to run Prettier on commit {start:2022-10-31T15:39:03} {cm:2022-10-31} {duration:3m}
     Project is configured to run ESLint on commit {cm:2022-10-31}
-    Project is configured to run Jest on commit
+    Project is configured to run Jest on commit {cm:2022-10-31}
     Project is configured to deploy to pages on merge to default
 
 The following file changes are required:
@@ -32,13 +32,14 @@ The following features must be automatically tested with end-to-end tests:
     The create item form validates user inputs correctly based on API restrictions
     The logout button logs the user out when clicked
 
-If there are bugs, concerns or problems with the repository you are working on, make sure to list these as issues using the Issues tab in the repository. It is not your responsibility to resolve these issues but they must be logged if discovered.
-Delivery
+# If there are bugs, concerns or problems with the repository you are working on, make sure to list these as issues using the Issues tab in the repository. It is not your responsibility to resolve these issues but they must be logged if discovered.
 
-Please deliver an open Pull Request from branch workflow into the target project’s default branch.
+# Delivery
 
-Please post your PR to the peer review forum and review 2 other submissions.
+# Please deliver an open Pull Request from branch workflow into the target project’s default branch.
 
-If you would like a teacher review please request this at least 5 days before the deadline.
+# Please post your PR to the peer review forum and review 2 other submissions.
 
-You must complete the course evaluation to unlock delivery.
+# If you would like a teacher review please request this at least 5 days before the deadline.
+
+# You must complete the course evaluation to unlock delivery.
