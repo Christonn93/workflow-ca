@@ -4,14 +4,15 @@
   "main": "index.js",
   "scripts": {
     "jest-test": "npm run test-unit",
-    "test-unit": "jest",    
+    "test-unit": "jest",
     "test": "npm run test-e2e",
     "test-e2e": "cypress open",
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
     "build": "sass src/scss:dist/css",
-    "start": "sass --watch src/scss:dist/css & live-server"
+    "start": "sass --watch src/scss:dist/css & live-server",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +20,7 @@
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.4",
-    "cypress": "^10.7.0",
+    "cypress": "^10.11.0",
     "eslint": "^8.26.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-cypress": "^2.12.1",
@@ -43,5 +44,11 @@
     "url": "https://github.com/Christonn93/workflow-ca/issues"
   },
   "homepage": "https://github.com/Christonn93/workflow-ca#readme",
-  "description": ""
+  "description": "",
+  "lint-staged": {
+    "*.js": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
+  }
 }

@@ -2,17 +2,17 @@
 
 In order to complete this task, you will need to select an existing JavaScript project that has:
 
-    API calls to CRUD an item {cm:2022-10-31}
-    API call to authenticate a user {cm:2022-10-31}
-    Does not belong to you {cm:2022-10-31}
+    API calls to CRUD an item {cm:2022-11-01}
+    API call to authenticate a user {cm:2022-11-01}
+    Does not belong to you {cm:2022-11-01}
 
  # You may use another student’s project or a project provided by your teacher.
 
 The following workflows/hooks are required:
 
-    Project is configured to run Prettier on commit {start:2022-10-31T15:39:03} {cm:2022-10-31} {duration:3m}
-    Project is configured to run ESLint on commit {cm:2022-10-31}
-    Project is configured to run Jest on commit {cm:2022-10-31}
+    Project is configured to run Prettier on commit
+    Project is configured to run ESLint on commit
+    Project is configured to run Jest on commit
     Project is configured to deploy to pages on merge to default
 
 The following file changes are required:
