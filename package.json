@@ -3,9 +3,9 @@
   "version": "1.0.3",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test-unit",
+    "jest-test": "npm run test-unit",
     "test-unit": "jest",    
-    "end-test": "npm run test-e2e",
+    "test": "npm run test-e2e",
     "test-e2e": "cypress open",
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js",
